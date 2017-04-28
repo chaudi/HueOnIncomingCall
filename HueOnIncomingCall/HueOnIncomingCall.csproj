@@ -59,6 +59,11 @@
     <Compile Include="CallStuff\CallInterceptor.cs" />
     <Compile Include="Hue\HueCommunicator.cs" />
     <Compile Include="Hue\Light.cs" />
+    <Compile Include="Hue\Entities\Light.cs" />
+    <Compile Include="Hue\Entities\State.cs" />
+    <Compile Include="Hue\Messages\Lights\GetLightsResponse.cs" />
+    <Compile Include="Hue\Messages\RegisterUserResponse.cs" />
+    <Compile Include="Hue\Messages\RegisterUserRequest.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="PhoneBroadcast\PhoneBroadcastReciever.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
