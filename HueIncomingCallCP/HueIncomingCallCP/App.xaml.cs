@@ -1,5 +1,5 @@
 ﻿using HueIncomingCallCP.Views;
-
+using System.Collections.Generic;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -24,12 +24,10 @@ namespace HueIncomingCallCP
                     new NavigationPage(new ItemsPage())
                     {
                         Title = "Browse",
-                        Icon = Device.OnPlatform("tab_feed.png",null,null)
                     },
                     new NavigationPage(new AboutPage())
                     {
                         Title = "About",
-                        Icon = Device.OnPlatform("tab_about.png",null,null)
                     },
                 }
             };

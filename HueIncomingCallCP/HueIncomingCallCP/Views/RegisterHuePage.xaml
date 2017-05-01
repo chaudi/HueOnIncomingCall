@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HueIncomingCallCP.Views.RegisterHuePage">
+    <StackLayout>
+        <Image Source=""></Image>
+        <Button Clicked="Button_Clicked_1">Try find bridge</Button>
+        <TextCell x:Name="IPField">IP</TextCell>
+        <Button Clicked="Button_Clicked" >Register</Button>
+    </StackLayout>
+</ContentPage>
